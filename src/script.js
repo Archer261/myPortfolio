@@ -11,14 +11,13 @@ function toggleNav() {
 
 function toggleThanks() {
   submitRequest.style.display = "flex";
-
+  for (var i = 0; i < inputFields.length; i++) {
+    if (inputFields[i].value) {
+      inputFields[i].value = "";
+    }
+  }
   setTimeout(function () {
     submitRequest.style.display = "none";
-    for (var i = 0; i < inputFields.length; i++) {
-      if (inputFields[i].value) {
-        inputFields[i].value = "";
-      }
-    }
   }, 5000);
 }
 

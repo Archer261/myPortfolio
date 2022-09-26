@@ -37,7 +37,8 @@
                     <a href="https://www.linkedin.com/in/kjarcher"><img src="src/images/liPNG.png" /></a>
                 </div>
                 <div>
-                    <a href="https://github.com/Archer261"><img src="src/images/ghPNG.png" /></a>
+                    <a href="https://github.com/Archer261"><img src="src/images/ghPNG.png" />
+                    </a>
                 </div>
             </div>
         </div>
@@ -92,14 +93,14 @@
         <form action="https://formsubmit.co/viewtiful.kja@gmail.com" method="POST">
             <input type="hidden" name="_next" value="https://joseph-archer.com/#contact-me">
             <input type="hidden" name="_subject" value="New Porfolio Form Submission">
-            <input type="email" name="email" placeholder="Email Address" required>
-            <input type="text" name="company" placeholder="Company (Optional)">
-            <input type="text" name="message" placeholder="What can I help you with?" required>
+            <input id="email" type="email" name="email" placeholder="Email Address" required>
+            <input id="company" type="text" name="company" placeholder="Company (Optional)">
+            <input id="message" type="text" name="message" placeholder="What can I help you with?" required>
             <button id='submit-btn' class="btn" type="submit">Submit</button>
-            <div id="submit-request">
-                <h4>Thank you! Your request has been submitted.</h4>
-                       </div>
        </form>
+       <div id="submit-request">
+        <h4 id="submit-message">Thank you! Your request has been submitted.</h4>
+               </div>
     </div>
     </footer>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>

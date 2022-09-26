@@ -295,6 +295,7 @@ form {
 .form-area {
     display: flex;
     justify-content: space-around;
+    height: 500px;
 }
 
 #submit-request {
@@ -303,13 +304,24 @@ form {
 }
 
 form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
     padding: 5px;
     margin: 5px;
-    border-radius: 10px;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
 }
 
+form input:hover {
+    transform: scale(1.1);
+}
+
+
 form .btn {
+    color: white;
+    border: 0px;
     width: 80px;
     height: 40px;
-    font-size: 12px;
+    font-size: 20px;
 }
