@@ -35,6 +35,7 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
+    margin-right: 50px;
 }
 
 ul.show {
@@ -111,6 +112,7 @@ p {
 
 .socials {
     padding-bottom: 200px;
+    margin-right: 40px;
 }
 
 .socials img {
@@ -208,6 +210,12 @@ hr {
 .project-link {
     text-decoration: none;
     color: rgb(47, 0, 233);
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-link {
+        font-size: 40px;
+    }
 }
 
 .project-link:hover {
