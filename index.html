@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <section class="me">
+        <nav>
+            <img class="logo" src="/src/images/logo.png" alt="Joseph Archer logo" />
+            <ul id="nav-list">
+                <li><a href="#about-me">About Me</li></a>
+                <li><a href="#projects">Projects</li></a>
+                <li><a href="#contact-me">Contact Me</li></a>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <img src="src/images/menu.png" />
+            </button>
+
+        </nav>
+        <div class="me-area">
+            <div class="me-text">
+                <h1>K. Joseph Archer</h1>
+                <p>Full Stack Developer</p>
+                <div class="btn"><a href="#about-me">About Me</a></div>
+            </div>
+            <div class="socials">
+                <div>
+                    <a href="https://www.linkedin.com/in/kjarcher"><img src="src/images/liPNG.png" /></a>
+                </div>
+                <div>
+                    <a href="https://github.com/Archer261"><img src="src/images/ghPNG.png" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me" class="sub-section">
+        <div class="info">
+            <h2>About Me</h2>
+            <p>
+                Hi! My name is Joseph Archer. I am a full stack Software Developer and
+                Content Creator. I've spent the past year learning everything from front end to back
+                end development and it's been a blast! I look forward to working with you in the near
+                future. Let's build together!
+            </p>
+        </div>
+        <div class="photo-container">
+            <img class="photo" src="src/images/Joe-40.jpg" alt="Joseph Archer Photo" />
+        </div>
+    </section>
+    <section id="projects" class="sub-section-alt">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="project-img" src="src/images/tdDaily.png" alt="TouchDown Daily" />
+                <h3>TouchDown Daily</h3>
+                <p class="subtext">News Aggregate for all American Football teams.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://morning-savannah-61110.herokuapp.com/">View</a>
+                </p>
+            </div>
+            <div class="project-card">
+                <img class="project-img" src="src/images/myKindaMovie.png" alt="MyKinda Movie" />
+                <h3>MyKinda Movie</h3>
+                <p class="subtext">A web based application that recommends movies based on your interests.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://archer261.github.io/my-kinda-films/">View</a>
+                </p>
+            </div>
+            <div class="project-card">
+                <img class="project-img" src="src/images/workDayScheduler.jpg" alt="Work Day Scheduler" />
+                <h3>Work Day Scheduler</h3>
+                <p class="subtext">A simple web based work day scheduler that stores calendar entries.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="">View</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- -------- Footer -------- -->
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <form action="https://formsubmit.co/viewtiful.kja@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="message" placeholder="What can I help you with?" required>
+            <button type="submit">Send</button>
+       </form>
+
+        <!-- <h2>
+            Contact me
+        </h2>
+        <p>viewtiful.kja@gmail.com</p> -->
+
+
+
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="/src/script.js" async defer></script>
+</body>
+
+</html>
